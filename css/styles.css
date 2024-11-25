@@ -31,6 +31,13 @@ img {
     align-items: center;  
     box-sizing: border-box;
 }
+/* .nav-list__list-item  div hr {
+    width: 48px;
+    height: 4px;
+    margin-top: 20px;
+    color: rgba(64, 75, 191, 1);
+    border-radius: 2px;
+} */
 .nav-list {
     display: flex;
     gap: 40px;
@@ -123,9 +130,16 @@ ul {
 }
 
 .first-section {
-    background-color: #2e2f42;
+background-image:
+        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/people-office 1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 600px;
-    background-color: #2e2f42;
+
+    
+    
     color: #ffffff;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -137,6 +151,7 @@ ul {
     gap: 48px;
    
 }
+
     
 
 .first-section .first-section__title {
@@ -200,6 +215,7 @@ ul {
     display: flex;
     justify-content: center;
 }
+
 .second-section__list .second-list__item .second-section__list-title {
     font-weight: 500;
         font-size: 20px;
@@ -218,7 +234,7 @@ ul {
     background-color: #ffffff;
     width: calc((100% - 72px)/4);
 }
-.second-list__item hr {
+.second-section__list-icon {
     border: 1px solid rgba(244, 244, 253, 1);
     width: 264px;
     height: 112px;
@@ -226,6 +242,12 @@ ul {
     margin-bottom: 8px;
     border-radius: 4px;
     
+}
+.second-section__list .second-list__item div svg {
+    width: 64px;
+    height: 64px;
+    margin-top: 24px;
+    margin-left: 100px;
 }
 .second-section .text {
     font-size: 16px;
@@ -259,20 +281,24 @@ ul {
 }
 .third-section .third-section__list .list-item{
     border-top-left-radius: 0px;
-border-top-right-radius: 0px;
-border-bottom-right-radius: 4px;
-border-bottom-left-radius: 4px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    
 }
 .third-section .third-section__list .member{
-        padding-top: 32px;
-        padding-bottom: 32px;
-        display: flex;
-        flex-direction: column;
+    
+    padding-top: 32px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    
+        
      
        
 }
 .third-section .third-section__list .member .member-name{
-font-weight: 500;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -280,15 +306,46 @@ font-weight: 500;
     text-transform: capitalize;
     margin-bottom: 8px;
     text-align: center;
+        
 }
 .third-section .third-section__list .member .text{
     font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-        text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+        
+        
 }
+.third-section-icons{
+    text-align: center;
+}
+.third-section-icons div {  
+    display: inline-flex;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(77, 90, 229, 1);
+    border-radius: 50%;
+    background-color: rgba(77, 90, 229, 1);
+    gap: 24px;
+    margin-left: 16px;
+    margin-bottom: 32px;
+    margin-top: -0px;
+    rotate: -0;
+}
+.ınstagram,
+.twitter,
+.facebook,
+.lınkedln {
+    display: inline-flex;
+    height: 16px;
+    width: 16px;
+    margin-left: 12.03px;
+    margin-top: 12px;
+    
 
+}
 .forth-section {
     padding-top: 120px;
         padding-bottom: 120px;
@@ -340,12 +397,16 @@ padding-left: 16px;
 }
 
 .footer {
-        background-color: #2e2f42;
-           color: white;
-            padding-top: 100px;
-            padding-bottom: 100px;
-
-            
+    background-color: #2e2f42;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;   
+    
+    
+}
+.footer .container {
+    display: flex;
+    flex-direction: row;
 }
 
 .footer .text {
@@ -372,4 +433,47 @@ padding-left: 16px;
 
 .footer-logo .logo-span {
     color: #f4f4fd;
+}
+.footer-right {
+   
+    margin-left: 120px;
+}
+.footer-right h6 {
+    
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-icons {
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+.footer-icons div {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(77, 90, 229, 1);
+    border-radius: 50%;
+    background-color: rgba(77, 90, 229, 1);
+    gap: 24px;
+    margin-left: 16px;
+    margin-bottom: 32px;
+    margin-top: -0px;
+    rotate: -0;
+
+}
+.footer-icons .ınstagram,
+.twitter,
+.facebook,
+.lınkedln {
+    display: inline-flex;
+    height: 24px;
+    width: 24px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.footer-icons .ınstagramm {
+    margin-left: 0;
 }
