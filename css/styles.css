@@ -403,12 +403,13 @@ width: 40px;
 
 }
 .fourth-section__list .list-item{
-    width: fit-content;
+    /* width: fit-content; */
+    width: calc((100%-48px)/3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-            list-style: none;
+            /* list-style: none;
             position: relative;
-            overflow: hidden;
+            overflow: hidden; */
 
 }
 .fourth-section-photo-card {
@@ -452,18 +453,7 @@ padding-left: 16px;
 
 }
 
-/* .fourth-section-photo-card-text {
-    
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
-    background-color: #4d5ae5;
-    height: 100%;
 
-} */
 
 .fourth-section-photo-card-text {
     position: absolute;
