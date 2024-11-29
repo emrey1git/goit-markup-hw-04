@@ -562,7 +562,7 @@ padding-left: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .f---icon:hover
 .f---icon:focus {
