@@ -265,7 +265,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .second-section__list .second-list__item .second-section__list-icon .title-svg {
     width: 64px;
-    height: 64;
+    height: 64px;
     margin-top: 24px;
     margin-left: 100px;
 }
@@ -359,7 +359,7 @@ width: 40px;
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.third_section-social-media__list-item-link:hover
+.third_section-social-media__list-item-link:hover,
 .third_section-social-media__list-item-link:focus {
     background-color: #404bbf;
 }
@@ -481,7 +481,7 @@ padding-left: 16px;
    
         
 }
-.fourth-section__list .list-item .fourth-section__photo-card:hover .fourth-section__photo-card-text {
+.fourth-section__list .list-item .fourth-section__photo-card:hover, .fourth-section__photo-card-text {
     transform: translatey(0);
 }
 
