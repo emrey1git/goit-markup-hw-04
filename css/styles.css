@@ -497,7 +497,9 @@ padding-left: 16px;
     align-items: baseline;
     margin-right: 120px;
 }
-
+.social-media-svg {
+    fill: #f4f4fd;
+}
 .footer-social-media-text {
     font-weight: 500;
     font-size: 16px;
@@ -510,6 +512,10 @@ padding-left: 16px;
 .footer-social-media-ul {
     display: flex;
     gap: 16px;
+}
+.social-media-buttın-li {
+    width: 40px;
+    height: 40px;
 }
 
 .footer-logo-text-container {
@@ -531,7 +537,16 @@ padding-left: 16px;
     display: inline-block;
     margin-bottom: 16px;
 }
-
+.social-media-button{
+    width: 100%;
+        height: 100%;
+        background-color: #4d5ae5;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+}
 .footer-social-media-button:hover,
 .footer-social-media-button:focus {
     background-color: #31d0aa;
