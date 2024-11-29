@@ -456,6 +456,7 @@ padding-left: 16px;
 }
 
 .fourth-section-photo-card-text {
+    position: absolute;
     width: 296px;
     height: 96px;
     font-size: 16px;
@@ -545,22 +546,22 @@ padding-left: 16px;
         display: flex;
         align-items: center;
         justify-content: center;
-        
+
 }
 .footer-social-media-button:hover,
 .footer-social-media-button:focus {
     background-color: #31d0aa;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* 
+/*
 .footer {
     background-color: #2e2f42;
     color: white;
-    
+
 }
 .footer .container {
     display: flex;
-    
+
     align-items: baseline
 }
 .footer-left   {
@@ -583,9 +584,9 @@ padding-left: 16px;
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-    
+
     text-decoration: none;
-    
+
 }
 .footer-logo:hover
 .footer-logo:focus {
