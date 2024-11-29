@@ -397,12 +397,12 @@ width: 40px;
 .fourth-section__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 24px;""
     row-gap: 48px;
     position: relative;
 
 }
-.fourth-section__list .list-item{
+.fourth-section__list .fourth-section_list-item{
     /* width: fit-content; */
     width: calc((100%-48px)/3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
