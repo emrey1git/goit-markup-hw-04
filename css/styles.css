@@ -471,7 +471,7 @@ padding-left: 16px;
    
         
 }
-.fourth-section__list .list-item .fourth-section__photo-card:hover, .fourth-section__photo-card-text {
+.fourth-section_list-item:hover .fourth-section-photo-card-text {
     transform: translatey(0);
 }
 
