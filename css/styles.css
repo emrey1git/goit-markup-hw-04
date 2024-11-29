@@ -89,6 +89,7 @@ ul {
 }
 .nav-list .nav-list__list-item #link-studio {
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-list .nav-list__list-item #link-studio::after {
 content: "";
@@ -146,10 +147,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     
-    background-image:
-        linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-        url('../images/people-office 1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -197,6 +196,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.04em;
     font-weight: 500;
     cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-section__btn:hover,
@@ -261,7 +261,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 112px;
     
 }
-.second-section__list .second-list__item div svg {
+.second-section__list .second-list__item .second-section__list-icon .title-svg {
     width: 64px;
     height: 64px;
     margin-top: 24px;
