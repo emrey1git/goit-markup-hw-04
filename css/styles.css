@@ -565,7 +565,8 @@ padding-left: 16px;
 }
 
  .footer__icons-svg {
-   
+    width: 24px;
+    height: 24px;
     fill: #f4f4fd;
 }
 
